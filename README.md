@@ -1,4 +1,4 @@
-# 🇹🇷 Türkçe NLP Chunking Sistemi
+# Türkçe NLP Chunking Sistemi
 
 Türkçe metinlerde kelimelerin cümle içerisindeki öbek yapılarını (chunk) otomatik olarak belirlemek amacıyla geliştirilmiş makine öğrenmesi tabanlı bir Doğal Dil İşleme (NLP) projesidir.
 
