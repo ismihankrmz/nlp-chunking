@@ -1,0 +1,806 @@
+# text = Bayram için memlekete dönmek bana çok iyi geldi.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Bayram B-NP _ O
+2 için O _ O
+3 memlekete B-NP _ O
+4 dönmek B-VP _ O
+5 bana B-NP _ O
+6 çok B-ADVP _ O
+7 iyi I-ADVP _ O
+8 geldi B-VP _ O
+9 . O _ O
+
+# text = Ablam en sevdiğim yemeği yapmıştı bu akşam.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Ablam B-NP _ O
+2 en B-ADVP _ O
+3 sevdiğim I-ADVP _ O
+4 yemeği B-NP _ O
+5 yapmıştı B-VP _ O
+6 bu B-NP _ O
+7 akşam I-NP _ O
+8 . O _ O
+
+# text = Bu pazar ailecek pikniğe gittik.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Bu B-NP _ O
+2 pazar I-NP _ O
+3 ailecek B-ADVP _ O
+4 pikniğe B-NP _ O
+5 gittik B-VP _ O
+6 . O _ O
+
+# text = 24 mayıs benim doğum günüm 3 yıl sonra evde ailemle kutlamak bana çok iyi geldi.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 24 B-NP _ O
+2 mayıs I-NP _ O
+3 benim B-NP _ O
+4 doğum B-NP _ O
+5 günüm I-NP _ O
+6 3 B-NP _ O
+7 yıl I-NP _ O
+8 sonra B-ADVP _ O
+9 evde B-NP _ O
+10 ailemle B-NP _ O
+11 kutlamak B-VP _ O
+12 bana B-NP _ O
+13 çok B-ADVP _ O
+14 iyi I-ADVP _ O
+15 geldi B-VP _ O
+16 . O _ O
+
+# text = Yeni bir diziye başladım.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Yeni B-ADJP _ O
+2 bir I-ADJP _ O
+3 diziye B-NP _ O
+4 başladım B-VP _ O
+5 . O _ O
+
+# text = Finaller projeler sunumlar hepsi üst üste geldi yine.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Finaller B-NP _ O
+2 projeler I-NP _ O
+3 sunumlar I-NP _ O
+4 hepsi B-NP _ O
+5 üst B-ADVP _ O
+6 üste I-ADVP _ O
+7 geldi B-VP _ O
+8 yine B-ADVP _ O
+9 . O _ O
+
+# text = Bugün anneannemi ziyaret ettim.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Bugün B-ADVP _ O
+2 anneannemi B-NP _ O
+3 ziyaret B-VP _ O
+4 ettim I-VP _ O
+5 . O _ O
+
+# text = Kuzenim staj bulma konusunda bana yardımcı olacağını söyledi.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Kuzenim B-NP _ O
+2 staj B-NP B-COMPCL B-COMPCL
+3 bulma I-NP I-COMPCL I-COMPCL
+4 konusunda B-NP _ O
+5 bana B-NP _ O
+6 yardımcı B-ADJP _ O
+7 olacağını B-VP B-COMPCL B-COMPCL
+8 söyledi I-VP _ O
+9 . O _ O
+
+# text = Bir an önce mezun olmak istiyorum.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Bir B-NP _ O
+2 an I-NP _ O
+3 önce B-ADVP _ O
+4 mezun B-ADJP _ O
+5 olmak B-VP _ O
+6 istiyorum I-VP _ O
+7 . O _ O
+
+# text = Gelecek hayallerim konusunda kafam çok karışık.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Gelecek B-NP _ O
+2 hayallerim I-NP _ O
+3 konusunda B-NP _ O
+4 kafam B-NP _ O
+5 çok B-ADVP _ O
+6 karışık B-ADJP _ O
+7 . O _ O
+
+# text = 3. sınıf olmama rağmen hala yanlış bir okul ve bölüm tercihi yapıp yapmadığım konusunda çok düşünüyorum.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 3. B-NP _ O
+2 sınıf I-NP _ O
+3 olmama B-VP B-RELCL B-RELCL
+4 rağmen O _ O
+5 hala B-ADVP _ O
+6 yanlış B-ADJP _ O
+7 bir I-ADJP _ O
+8 okul I-ADJP _ O
+9 ve O _ O
+10 bölüm B-NP _ O
+11 tercihi I-NP _ O
+12 yapıp B-VP _ O
+13 yapmadığım I-VP B-RELCL B-RELCL
+14 konusunda B-NP _ O
+15 çok B-ADVP _ O
+16 düşünüyorum B-VP _ O
+17 . O _ O
+
+# text = Bilgisayarımı değiştirmek istiyorum ama istediğim bilgisayar çok pahalı.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Bilgisayarımı B-NP _ O
+2 değiştirmek B-VP _ O
+3 istiyorum I-VP _ O
+4 ama O _ O
+5 istediğim B-NP B-RELCL B-RELCL
+6 bilgisayar I-NP _ O
+7 çok B-ADVP _ O
+8 pahalı B-ADJP _ O
+9 . O _ O
+
+# text = Babam bugün dışarı çıkarken yüzüne güneş kremi sürdüm.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Babam B-NP _ O
+2 bugün B-ADVP _ O
+3 dışarı B-ADVP _ O
+4 çıkarken B-VP B-RELCL B-RELCL
+5 yüzüne B-NP _ O
+6 güneş B-NP _ O
+7 kremi I-NP _ O
+8 sürdüm B-VP _ O
+9 . O _ O
+
+# text = Abim marketten erik aldı.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Abim B-NP _ O
+2 marketten B-NP _ O
+3 erik B-NP _ O
+4 aldı B-VP _ O
+5 . O _ O
+
+# text = Çocuklar sokakta büyük bir kavgaya karıştı.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Çocuklar B-NP _ O
+2 sokakta B-NP _ O
+3 büyük B-ADJP _ O
+4 bir I-ADJP _ O
+5 kavgaya B-NP _ O
+6 karıştı B-VP _ O
+7 . O _ O
+
+# text = Terminale giden otobüs o kadar hızlıydı ki otogara varış süresini yarıya indirdi.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Terminale B-NP _ O
+2 giden I-NP B-RELCL B-RELCL
+3 otobüs I-NP _ O
+4 o B-NP _ O
+5 kadar B-ADVP _ O
+6 hızlıydı B-ADJP _ O
+7 ki O _ O
+8 otogara B-NP _ B-COMPCL
+9 varış B-NP _ I-COMPCL
+10 süresini I-NP _ I-COMPCL
+11 yarıya B-NP _ I-COMPCL
+12 indirdi B-VP _ I-COMPCL
+13 . O _ O
+
+# text = Ablam ve kız kardeşim sınava hazırlanıyor.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Ablam B-NP _ O
+2 ve O _ O
+3 kız B-NP _ O
+4 kardeşim I-NP _ O
+5 sınava B-NP _ O
+6 hazırlanıyor B-VP _ O
+7 . O _ O
+
+# text = Sabah kahvaltı yapmadan derse girdim çok pişman oldum.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Sabah B-ADVP _ O
+2 kahvaltı B-NP _ O
+3 yapmadan B-VP B-RELCL B-RELCL
+4 derse B-NP _ O
+5 girdim B-VP _ O
+6 çok B-ADVP _ O
+7 pişman B-ADJP _ O
+8 oldum I-VP _ O
+9 . O _ O
+
+# text = Arkadaşım bugün beni arayıp geç geleceğini söyledi.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Arkadaşım B-NP _ O
+2 bugün B-ADVP _ O
+3 beni B-NP _ O
+4 arayıp B-VP _ O
+5 geç B-ADVP _ O
+6 geleceğini B-VP B-COMPCL B-COMPCL
+7 söyledi I-VP _ O
+8 . O _ O
+
+# text = Sınav sonucu beklediğimden çok daha iyi çıktı.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Sınav B-NP _ O
+2 sonucu I-NP _ O
+3 beklediğimden B-VP B-COMPCL B-COMPCL
+4 çok B-ADVP _ O
+5 daha I-ADVP _ O
+6 iyi I-ADVP _ O
+7 çıktı B-VP _ O
+8 . O _ O
+
+# text = Akşam yemeğinde ne yesek diye uzun uzun düşündük.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Akşam B-NP _ O
+2 yemeğinde I-NP _ O
+3 ne B-NP _ B-COMPCL
+4 yesek B-VP _ I-COMPCL
+5 diye O _ O
+6 uzun B-ADVP _ O
+7 uzun I-ADVP _ O
+8 düşündük B-VP _ O
+9 . O _ O
+
+# text = Telefon şarjı biterken önemli bir mesaj geldi.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Telefon B-NP _ O
+2 şarjı I-NP _ O
+3 biterken B-VP B-RELCL B-RELCL
+4 önemli B-ADJP _ O
+5 bir I-ADJP _ O
+6 mesaj B-NP _ O
+7 geldi B-VP _ O
+8 . O _ O
+
+# text = Hafta sonu hiçbir şey yapmadan evde kaldım.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Hafta B-NP _ O
+2 sonu I-NP _ O
+3 hiçbir B-NP _ O
+4 şey I-NP _ O
+5 yapmadan B-VP B-RELCL B-RELCL
+6 evde B-NP _ O
+7 kaldım B-VP _ O
+8 . O _ O
+
+# text = Annem beni aradığında ders çalışıyordum.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Annem B-NP _ O
+2 beni B-NP _ O
+3 aradığında B-VP B-RELCL B-RELCL
+4 ders B-NP _ O
+5 çalışıyordum B-VP _ O
+6 . O _ O
+
+# text = Ödev son güne kaldı ama yine de yetiştirdim.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Ödev B-NP _ O
+2 son B-ADJP _ O
+3 güne B-NP _ O
+4 kaldı B-VP _ O
+5 ama O _ O
+6 yine B-ADVP _ O
+7 de I-ADVP _ O
+8 yetiştirdim B-VP _ O
+9 . O _ O
+
+# text = Sabahları erken kalkmak benim için hala çok zor.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Sabahları B-ADVP _ O
+2 erken I-ADVP _ O
+3 kalkmak B-VP _ O
+4 benim B-NP _ O
+5 için O _ O
+6 hala B-ADVP _ O
+7 çok I-ADVP _ O
+8 zor B-ADJP _ O
+9 . O _ O
+
+# text = Kütüphanede yer bulamadım en arka köşeye oturdum.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Kütüphanede B-NP _ O
+2 yer B-NP _ O
+3 bulamadım B-VP _ O
+4 en B-ADVP _ O
+5 arka I-ADVP _ O
+6 köşeye B-NP _ O
+7 oturdum B-VP _ O
+8 . O _ O
+
+# text = Geçen hafta çok güzel bir film izledim.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Geçen B-ADJP _ O
+2 hafta I-ADJP _ O
+3 çok B-ADVP _ O
+4 güzel I-ADVP _ O
+5 bir B-NP _ O
+6 film I-NP _ O
+7 izledim B-VP _ O
+8 . O _ O
+
+# text = Annem bana eski püskü bir kazak gönderdi.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Annem B-NP _ O
+2 bana B-NP _ O
+3 eski B-ADJP _ O
+4 püskü I-ADJP _ O
+5 bir I-ADJP _ O
+6 kazak B-NP _ O
+7 gönderdi B-VP _ O
+8 . O _ O
+
+# text = Sabahın erken saatlerinde uyandım.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Sabahın B-NP _ O
+2 erken B-ADVP _ O
+3 saatlerinde I-ADVP _ O
+4 uyandım B-VP _ O
+5 . O _ O
+
+# text = Kardeşim yavaş yavaş yürüyerek eve geldi.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Kardeşim B-NP _ O
+2 yavaş B-ADVP _ O
+3 yavaş I-ADVP _ O
+4 yürüyerek B-VP B-RELCL B-RELCL
+5 eve B-NP _ O
+6 geldi I-VP _ O
+7 . O _ O
+
+# text = Bugün çok yorucu ve sıkıcı bir gün geçirdim.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Bugün B-ADVP _ O
+2 çok B-ADVP _ O
+3 yorucu I-ADVP _ O
+4 ve O _ O
+5 sıkıcı B-ADJP _ O
+6 bir I-ADJP _ O
+7 gün B-NP _ O
+8 geçirdim B-VP _ O
+9 . O _ O
+
+# text = Hızlı bir şekilde ödevi bitirip uyudum.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Hızlı B-ADVP _ O
+2 bir I-ADVP _ O
+3 şekilde I-ADVP _ O
+4 ödevi B-NP _ O
+5 bitirip B-VP _ O
+6 uyudum I-VP _ O
+7 . O _ O
+
+# text = Küçük sarı bir kuş pencereye kondu.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Küçük B-ADJP _ O
+2 sarı I-ADJP _ O
+3 bir I-ADJP _ O
+4 kuş B-NP _ O
+5 pencereye B-NP _ O
+6 kondu B-VP _ O
+7 . O _ O
+
+# text = Arkadaşlarım gürültülü bir kafede buluştu.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Arkadaşlarım B-NP _ O
+2 gürültülü B-ADJP _ O
+3 bir I-ADJP _ O
+4 kafede B-NP _ O
+5 buluştu B-VP _ O
+6 . O _ O
+
+# text = Sınıfta en zeki öğrenci sınavı çok kolay bitirdi.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Sınıfta B-NP _ O
+2 en B-ADVP _ O
+3 zeki I-ADVP _ O
+4 öğrenci B-NP _ O
+5 sınavı B-NP _ O
+6 çok B-ADVP _ O
+7 kolay I-ADVP _ O
+8 bitirdi B-VP _ O
+9 . O _ O
+
+# text = Dışarıda soğuk ve rüzgarlı bir hava vardı.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Dışarıda B-NP _ O
+2 soğuk B-ADJP _ O
+3 ve O _ O
+4 rüzgarlı I-ADJP _ O
+5 bir I-ADJP _ O
+6 hava B-NP _ O
+7 vardı B-VP _ O
+8 . O _ O
+
+# text = Akşam geç saatte eve dönünce çok acıkmıştım.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Akşam B-ADVP _ O
+2 geç I-ADVP _ O
+3 saatte B-NP _ O
+4 eve B-NP _ O
+5 dönünce B-VP B-RELCL B-RELCL
+6 çok B-ADVP _ O
+7 acıkmıştım I-VP _ O
+8 . O _ O
+
+# text = Yeni aldığım kulaklık bir haftada bozuldu.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Yeni B-ADJP _ O
+2 aldığım I-ADJP B-RELCL B-RELCL
+3 kulaklık B-NP _ O
+4 bir B-NP _ O
+5 haftada I-NP _ O
+6 bozuldu B-VP _ O
+7 . O _ O
+
+# text = Köyde büyükannem bizi her zaman sıcak karşılar.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Köyde B-NP _ O
+2 büyükannem B-NP _ O
+3 bizi B-NP _ O
+4 her B-ADVP _ O
+5 zaman I-ADVP _ O
+6 sıcak B-ADJP _ O
+7 karşılar B-VP _ O
+8 . O _ O
+
+# text = Sabahları erken kalkan insanlara hep imreniyorum.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Sabahları B-ADVP _ O
+2 erken I-ADVP _ O
+3 kalkan B-VP B-RELCL B-RELCL
+4 insanlara B-NP _ O
+5 hep B-ADVP _ O
+6 imreniyorum I-VP _ O
+7 . O _ O
+
+# text = Uzun ve yorucu bir yolculuktan sonra eve vardım.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Uzun B-ADJP _ O
+2 ve O _ O
+3 yorucu I-ADJP _ O
+4 bir I-ADJP _ O
+5 yolculuktan B-NP _ O
+6 sonra B-ADVP _ O
+7 eve B-NP _ O
+8 vardım B-VP _ O
+9 . O _ O
+# text = Ders çalışmak için kütüphaneye gittim ama yer bulamadım.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Ders B-NP _ O
+2 çalışmak I-NP _ O
+3 için O _ O
+4 kütüphaneye B-NP _ O
+5 gittim B-VP _ O
+6 ama O _ O
+7 yer B-NP _ O
+8 bulamadım I-VP _ O
+9 . O _ O
+
+# text = Annem ve babam bu akşam sinemaya gitti.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Annem B-NP _ O
+2 ve O _ O
+3 babam B-NP _ O
+4 bu B-NP _ O
+5 akşam I-NP _ O
+6 sinemaya B-NP _ O
+7 gitti B-VP _ O
+8 . O _ O
+
+# text = Yeni aldığım ayakkabılar bir haftada bozuldu.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Yeni B-ADJP _ O
+2 aldığım I-ADJP B-RELCL B-RELCL
+3 ayakkabılar B-NP _ O
+4 bir B-NP _ O
+5 haftada I-NP _ O
+6 bozuldu B-VP _ O
+7 . O _ O
+
+# text = Kardeşim ödevini bitirip uyumaya gitti.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Kardeşim B-NP _ O
+2 ödevini B-NP _ O
+3 bitirip B-VP _ O
+4 uyumaya I-VP _ O
+5 gitti I-VP _ O
+6 . O _ O
+
+# text = Sabah erken kalkıp kahvaltı yapmadan çıktım.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Sabah B-ADVP _ O
+2 erken I-ADVP _ O
+3 kalkıp B-VP _ O
+4 kahvaltı B-NP _ O
+5 yapmadan I-VP _ O
+6 çıktım I-VP _ O
+7 . O _ O
+
+# text = Arkadaşım bana çok güzel bir hediye getirdi.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Arkadaşım B-NP _ O
+2 bana B-NP _ O
+3 çok B-ADVP _ O
+4 güzel I-ADVP _ O
+5 bir B-NP _ O
+6 hediye I-NP _ O
+7 getirdi B-VP _ O
+8 . O _ O
+
+# text = Bu hafta sonu hiçbir yere çıkmadan evde kaldım.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Bu B-NP _ O
+2 hafta I-NP _ O
+3 sonu I-NP _ O
+4 hiçbir B-NP _ O
+5 yere I-NP _ O
+6 çıkmadan B-VP _ O
+7 evde B-NP _ O
+8 kaldım I-VP _ O
+9 . O _ O
+
+# text = Sınav sonuçları açıklandığında çok heyecanlandım.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Sınav B-NP _ O
+2 sonuçları I-NP _ O
+3 açıklandığında B-VP B-RELCL B-RELCL
+4 çok B-ADVP _ O
+5 heyecanlandım B-VP _ O
+6 . O _ O
+
+# text = Uzun ve yorucu bir günün ardından eve geldim.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Uzun B-ADJP _ O
+2 ve O _ O
+3 yorucu I-ADJP _ O
+4 bir I-ADJP _ O
+5 günün B-NP _ O
+6 ardından B-ADVP _ O
+7 eve B-NP _ O
+8 geldim B-VP _ O
+9 . O _ O
+
+# text = Soğuk ve yağmurlu bir havada dışarı çıkmak zorunda kaldım.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Soğuk B-ADJP _ O
+2 ve O _ O
+3 yağmurlu I-ADJP _ O
+4 bir I-ADJP _ O
+5 havada B-NP _ O
+6 dışarı B-ADVP _ O
+7 çıkmak B-VP _ O
+8 zorunda I-VP _ O
+9 kaldım I-VP _ O
+10 . O _ O
+
+# text = Annemin yaptığı çorba çok lezzetli ve sıcacıktı.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Annemin B-NP _ O
+2 yaptığı I-NP B-RELCL B-RELCL
+3 çorba B-NP _ O
+4 çok B-ADVP _ O
+5 lezzetli B-ADJP _ O
+6 ve O _ O
+7 sıcacıktı I-ADJP _ O
+8 . O _ O
+
+# text = Küçük kardeşim yavaş yavaş yürümeye başladı.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Küçük B-ADJP _ O
+2 kardeşim B-NP _ O
+3 yavaş B-ADVP _ O
+4 yavaş I-ADVP _ O
+5 yürümeye B-VP _ O
+6 başladı I-VP _ O
+7 . O _ O
+
+# text = Bugün çok uzun ve sıkıcı bir ders işledik.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Bugün B-ADVP _ O
+2 çok B-ADVP _ O
+3 uzun I-ADVP _ O
+4 ve O _ O
+5 sıkıcı B-ADJP _ O
+6 bir I-ADJP _ O
+7 ders B-NP _ O
+8 işledik B-VP _ O
+9 . O _ O
+
+# text = Babam bana eski ve köhne bir bisiklet aldı.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Babam B-NP _ O
+2 bana B-NP _ O
+3 eski B-ADJP _ O
+4 ve O _ O
+5 köhne I-ADJP _ O
+6 bir I-ADJP _ O
+7 bisiklet B-NP _ O
+8 aldı B-VP _ O
+9 . O _ O
+
+# text = Hızlı bir şekilde ödevi bitirip arkadaşlarımla buluştum.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Hızlı B-ADVP _ O
+2 bir I-ADVP _ O
+3 şekilde I-ADVP _ O
+4 ödevi B-NP _ O
+5 bitirip B-VP _ O
+6 arkadaşlarımla B-NP _ O
+7 buluştum I-VP _ O
+8 . O _ O
+
+# text = Komşumuzun çocukları gürültülü bir şekilde koşuşturuyordu.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Komşumuzun B-NP _ O
+2 çocukları I-NP _ O
+3 gürültülü B-ADVP _ O
+4 bir I-ADVP _ O
+5 şekilde I-ADVP _ O
+6 koşuşturuyordu B-VP _ O
+7 . O _ O
+
+# text = Geçen hafta çok güzel ve eğlenceli bir gün geçirdim.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Geçen B-ADJP _ O
+2 hafta I-ADJP _ O
+3 çok B-ADVP _ O
+4 güzel I-ADVP _ O
+5 ve O _ O
+6 eğlenceli B-ADJP _ O
+7 bir I-ADJP _ O
+8 gün B-NP _ O
+9 geçirdim B-VP _ O
+10 . O _ O
+
+# text = Sınıftaki en zeki öğrenci sınavı erken bitirdi.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Sınıftaki B-NP B-RELCL B-RELCL
+2 en B-ADVP _ O
+3 zeki I-ADVP _ O
+4 öğrenci B-NP _ O
+5 sınavı B-NP _ O
+6 erken B-ADVP _ O
+7 bitirdi B-VP _ O
+8 . O _ O
+
+# text = Öğretmen tahtaya uzun ve karmaşık bir denklem yazdı.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Öğretmen B-NP _ O
+2 tahtaya B-NP _ O
+3 uzun B-ADJP _ O
+4 ve O _ O
+5 karmaşık I-ADJP _ O
+6 bir I-ADJP _ O
+7 denklem B-NP _ O
+8 yazdı B-VP _ O
+9 . O _ O
+
+# text = Dışarıda soğuk ve rüzgarlı bir hava olmasına rağmen çıktım.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Dışarıda B-NP _ O
+2 soğuk B-ADJP _ O
+3 ve O _ O
+4 rüzgarlı I-ADJP _ O
+5 bir I-ADJP _ O
+6 hava B-NP _ O
+7 olmasına B-VP B-COMPCL B-COMPCL
+8 rağmen O _ O
+9 çıktım B-VP _ O
+10 . O _ O
+
+# text = Annem bana sıcak ve tatlı bir çay hazırladı.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Annem B-NP _ O
+2 bana B-NP _ O
+3 sıcak B-ADJP _ O
+4 ve O _ O
+5 tatlı I-ADJP _ O
+6 bir I-ADJP _ O
+7 çay B-NP _ O
+8 hazırladı B-VP _ O
+9 . O _ O
+
+# text = Kardeşim yeni aldığı telefonla saatlerce oyun oynadı.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Kardeşim B-NP _ O
+2 yeni B-ADJP _ O
+3 aldığı I-ADJP B-RELCL B-RELCL
+4 telefonla B-NP _ O
+5 saatlerce B-ADVP _ O
+6 oyun B-NP _ O
+7 oynadı B-VP _ O
+8 . O _ O
+
+# text = Bugün okulda çok yorucu ve stresli bir gün geçirdim.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Bugün B-ADVP _ O
+2 okulda B-NP _ O
+3 çok B-ADVP _ O
+4 yorucu I-ADVP _ O
+5 ve O _ O
+6 stresli B-ADJP _ O
+7 bir I-ADJP _ O
+8 gün B-NP _ O
+9 geçirdim B-VP _ O
+10 . O _ O
+
+# text = Arkadaşlarım ve ben kafede uzun uzun sohbet ettik.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Arkadaşlarım B-NP _ O
+2 ve O _ O
+3 ben B-NP _ O
+4 kafede B-NP _ O
+5 uzun B-ADVP _ O
+6 uzun I-ADVP _ O
+7 sohbet B-NP _ O
+8 ettik I-VP _ O
+9 . O _ O
+
+# text = Babam her sabah erken kalkıp gazete okur.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Babam B-NP _ O
+2 her B-ADVP _ O
+3 sabah I-ADVP _ O
+4 erken I-ADVP _ O
+5 kalkıp B-VP _ O
+6 gazete B-NP _ O
+7 okur I-VP _ O
+8 . O _ O
+
+# text = Küçük ve sevimli bir kedi kapının önünde bekliyordu.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Küçük B-ADJP _ O
+2 ve O _ O
+3 sevimli I-ADJP _ O
+4 bir I-ADJP _ O
+5 kedi B-NP _ O
+6 kapının B-NP _ O
+7 önünde I-NP _ O
+8 bekliyordu B-VP _ O
+9 . O _ O
+
+# text = Hafta sonu ailemle uzun bir yürüyüşe çıktık.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Hafta B-NP _ O
+2 sonu I-NP _ O
+3 ailemle B-NP _ O
+4 uzun B-ADJP _ O
+5 bir I-ADJP _ O
+6 yürüyüşe B-NP _ O
+7 çıktık B-VP _ O
+8 . O _ O
+
+# text = Sınav haftası gelince uyku düzenim tamamen bozuldu.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Sınav B-NP _ O
+2 haftası I-NP _ O
+3 gelince B-VP B-RELCL B-RELCL
+4 uyku B-NP _ O
+5 düzenim I-NP _ O
+6 tamamen B-ADVP _ O
+7 bozuldu B-VP _ O
+8 . O _ O
+
+# text = Yeni açılan restoranda çok lezzetli yemekler yedik.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Yeni B-ADJP _ O
+2 açılan I-ADJP B-RELCL B-RELCL
+3 restoranda B-NP _ O
+4 çok B-ADVP _ O
+5 lezzetli I-ADVP _ O
+6 yemekler B-NP _ O
+7 yedik B-VP _ O
+8 . O _ O
+
+# text = Komşumuz bize taze ve güzel meyveler getirdi.
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1 Komşumuz B-NP _ O
+2 bize B-NP _ O
+3 taze B-ADJP _ O
+4 ve O _ O
+5 güzel I-ADJP _ O
+6 meyveler B-NP _ O
+7 getirdi B-VP _ O
+8 . O _ O
